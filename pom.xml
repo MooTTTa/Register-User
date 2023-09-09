@@ -31,6 +31,25 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>de.plushnikov.lombok-intellij-plugin</groupId>
+            <artifactId>lombok-plugin</artifactId>
+            <version>0.5</version>
+        </dependency>
+		<dependency>
+			<groupId>de.plushnikov.lombok-intellij-plugin</groupId>
+			<artifactId>lombok-plugin</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>de.plushnikov.lombok-intellij-plugin</groupId>
+			<artifactId>lombok-plugin</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
