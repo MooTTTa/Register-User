@@ -31,4 +31,9 @@ public class UserController {
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(userDTO.getId()).toUri();
         return ResponseEntity.created(uri).body(userService.insert(userDTO));
     }
+
+    @DeleteMapping("{id}")
+    public void delete(@PathVariable Long id){
+        userService.delete(id);
+    }
 }
